@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - {{ settings.site_title }}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(135deg, #f0f4ff 0%, #e0e7ff 50%, #f8fafc 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .login-card {
+            background: white;
+            width: 100%;
+            max-width: 380px;
+            border-radius: 24px;
+            padding: 32px 24px;
+            box-shadow: 0 20px 40px -12px rgba(0,0,0,0.12);
+            text-align: center;
+            border: 1px solid #e2e8f0;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+            background: linear-gradient(90deg, #2563eb, #7c3aed);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 6px;
+            letter-spacing: 0.5px;
+        }
+        .subtitle { color: #64748b; margin-bottom: 22px; font-size: 14px; }
+        .error {
+            background: #fef2f2;
+            color: #dc2626;
+            padding: 12px;
+            border-radius: 12px;
+            margin-bottom: 16px;
+            font-weight: 600;
+            font-size: 14px;
+        }
+        .password-box {
+            position: relative;
+            margin-bottom: 16px;
+        }
+        .password-box i {
+            position: absolute;
+            left: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #94a3b8;
+        }
+        input[type="password"] {
+            width: 100%;
+            padding: 16px 16px 16px 48px;
+            border: 2px solid #e2e8f0;
+            border-radius: 14px;
+            font-size: 16px;
+            outline: none;
+            transition: 0.2s;
+            background: #f8fafc;
+        }
+        input[type="password"]:focus { border-color: #2563eb; background: white; }
+        .login-btn {
+            width: 100%;
+            background: linear-gradient(90deg, #2563eb, #7c3aed);
+            color: white;
+            border: none;
+            padding: 16px;
+            border-radius: 14px;
+            font-size: 17px;
+            font-weight: 700;
+            cursor: pointer;
+            margin-top: 8px;
+            transition: transform 0.2s;
+        }
+        .login-btn:hover { transform: translateY(-2px); }
+        .get-pass-btn {
+            width: 100%;
+            background: #f1f5f9;
+            color: #2563eb;
+            border: 2px solid #e2e8f0;
+            padding: 14px;
+            border-radius: 14px;
+            font-weight: 700;
+            margin-top: 12px;
+            text-decoration: none;
+            display: block;
+            transition: 0.2s;
+        }
+        .get-pass-btn:hover { background: #e0e7ff; }
+        .socials {
+            display: flex;
+            justify-content: center;
+            gap: 14px;
+            margin-top: 22px;
+        }
+        .socials a {
+            width: 48px;
+            height: 48px;
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            color: white;
+            text-decoration: none;
+            transition: transform 0.2s;
+        }
+        .socials a:hover { transform: translateY(-4px); }
+        .yt { background: #ff0000; }
+        .tg { background: #0088cc; }
+        .dc { background: #5865F2; }
+        .footer-note {
+            margin-top: 24px;
+            color: #94a3b8;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-card">
+        <div class="logo">{{ settings.site_title }}</div>
+        <div class="subtitle">Enter your access key to continue</div>
+
+        {% if error %}<div class="error">{{ error }}</div>{% endif %}
+
+        <form method="POST">
+            <div class="password-box">
+                <i class="fas fa-lock"></i>
+                <input type="password" name="password" placeholder="Enter Password" required autofocus>
+            </div>
+            <button type="submit" class="login-btn">LOGIN DASHBOARD</button>
+        </form>
+
+        <a href="{{ settings.get_password_link or settings.youtube_link }}" target="_blank" class="get-pass-btn">
+            <i class="fas fa-key"></i> GET PASSWORD
+        </a>
+
+        <div class="socials">
+            {% if settings.youtube_link %}
+            <a href="{{ settings.youtube_link }}" target="_blank" class="yt" title="YouTube"><i class="fab fa-youtube"></i></a>
+            {% endif %}
+            {% if settings.telegram_link %}
+            <a href="{{ settings.telegram_link }}" target="_blank" class="tg" title="Telegram"><i class="fab fa-telegram"></i></a>
+            {% endif %}
+            {% if settings.discord_link %}
+            <a href="{{ settings.discord_link }}" target="_blank" class="dc" title="Discord"><i class="fab fa-discord"></i></a>
+            {% endif %}
+        </div>
+
+        <div class="footer-note">Get the password from YouTube / Telegram</div>
+    </div>
+</body>
+</html>

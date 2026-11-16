@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ settings.site_title }}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            color: #1e293b;
+            min-height: 100vh;
+        }
+        header {
+            background: white;
+            padding: 18px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .logo {
+            font-size: 26px;
+            font-weight: 800;
+            background: linear-gradient(90deg, #2563eb, #7c3aed);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .get-key {
+            display: flex;
+            gap: 10px;
+        }
+        .get-key a {
+            background: #2563eb;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 600;
+            transition: 0.2s;
+        }
+        .get-key a:hover { background: #1d4ed8; }
+        main { max-width: 640px; margin: 0 auto; padding: 24px 16px; }
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            border: 1px solid #e2e8f0;
+        }
+        .card h2 {
+            font-size: 18px;
+            margin-bottom: 16px;
+            color: #1e293b;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .server-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; }
+        .server-btn {
+            background: #f1f5f9;
+            border: 2px solid #e2e8f0;
+            padding: 14px;
+            border-radius: 14px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        .server-btn.active {
+            background: #2563eb;
+            color: white;
+            border-color: #2563eb;
+            box-shadow: 0 4px 15px rgba(37,99,235,0.3);
+        }
+        .input-field, .uid-input {
+            width: 100%;
+            padding: 14px 16px;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            font-size: 15px;
+            outline: none;
+            transition: 0.2s;
+            background: #f8fafc;
+        }
+        .input-field:focus, .uid-input:focus { border-color: #2563eb; background: white; }
+        .uid-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+        .category-tabs { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+        .tab {
+            flex: 1;
+            min-width: 90px;
+            padding: 10px;
+            background: #f1f5f9;
+            border: none;
+            border-radius: 12px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .tab.active { background: #2563eb; color: white; }
+        .emote-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+        .emote-item {
+            background: #f8fafc;
+            border-radius: 16px;
+            padding: 12px;
+            text-align: center;
+            cursor: pointer;
+            border: 3px solid transparent;
+            transition: 0.3s;
+        }
+        .emote-item.selected { border-color: #2563eb; background: #eff6ff; }
+        .emote-item img { width: 80px; height: 80px; object-fit: cover; border-radius: 12px; margin-bottom: 8px; }
+        .send-btn {
+            width: 100%;
+            background: linear-gradient(90deg, #2563eb, #7c3aed);
+            color: white;
+            border: none;
+            padding: 16px;
+            border-radius: 14px;
+            font-size: 18px;
+            font-weight: 700;
+            cursor: pointer;
+            margin-top: 12px;
+        }
+        .result-box {
+            background: #f0fdf4;
+            border-left: 5px solid #16a34a;
+            padding: 16px;
+            border-radius: 12px;
+            margin-top: 16px;
+        }
+        .result-box.error { background: #fef2f2; border-left-color: #dc2626; }
+        .hidden { display: none; }
+        footer { text-align: center; padding: 30px; color: #64748b; font-size: 14px; }
+        @media (max-width: 500px) {
+            .uid-grid, .emote-grid { grid-template-columns: 1fr 1fr; }
+            .get-key { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">{{ settings.site_title }}</div>
+        <div class="get-key">
+            {% if settings.youtube_link %}<a href="{{ settings.youtube_link }}" target="_blank"><i class="fab fa-youtube"></i> YouTube</a>{% endif %}
+            {% if settings.telegram_link %}<a href="{{ settings.telegram_link }}" target="_blank"><i class="fab fa-telegram"></i> Telegram</a>{% endif %}
+            {% if settings.discord_link %}<a href="{{ settings.discord_link }}" target="_blank"><i class="fab fa-discord"></i> Discord</a>{% endif %}
+        </div>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2><i class="fas fa-server"></i> Select Server</h2>
+            <div class="server-grid">
+                {% for s in servers %}
+                <button class="server-btn {% if loop.first %}active{% endif %}" data-server="{{ s.name }}">{{ s.name }}</button>
+                {% endfor %}
+            </div>
+        </section>
+
+        <section class="card">
+            <h2><i class="fas fa-key"></i> Team Code</h2>
+            <input type="text" id="teamCode" placeholder="Enter Team Code" class="input-field">
+        </section>
+
+        <section class="card">
+            <h2><i class="fas fa-users"></i> Target UIDs</h2>
+            <div class="uid-grid">
+                <input type="text" class="uid-input" placeholder="UID 1 (Optional)">
+                <input type="text" class="uid-input" placeholder="UID 2 (Optional)">
+                <input type="text" class="uid-input" placeholder="UID 3 (Optional)">
+                <input type="text" class="uid-input" placeholder="UID 4 (Optional)">
+                <input type="text" class="uid-input" placeholder="UID 5 (Optional)">
+                <input type="text" class="uid-input" placeholder="UID 6 (Optional)">
+            </div>
+        </section>
+
+        <section class="card">
+            <h2><i class="fas fa-smile"></i> Send Emotes</h2>
+            <div class="category-tabs" id="categoryTabs"></div>
+            <div id="emoteGrid" class="emote-grid"></div>
+            <button id="sendBtn" class="send-btn"><i class="fas fa-paper-plane"></i> SEND EMOTE</button>
+        </section>
+
+        <div id="result" class="result-box hidden"></div>
+    </main>
+
+    <footer>Premium Emote Sender • Powered by YASIN BHAI</footer>
+
+    <script>
+        const EMOTES = {{ emotes | tojson }};
+        let selectedServer = "{{ servers[0].name if servers else 'INDIA' }}";
+        let selectedEmoteId = null;
+
+        // Group emotes by category
+        const categories = [...new Set(EMOTES.map(e => e.category))];
+        const tabsEl = document.getElementById("categoryTabs");
+        categories.forEach((cat, i) => {
+            const btn = document.createElement("button");
+            btn.className = "tab" + (i === 0 ? " active" : "");
+            btn.textContent = cat;
+            btn.onclick = () => {
+                document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+                btn.classList.add("active");
+                renderEmotes(cat);
+            };
+            tabsEl.appendChild(btn);
+        });
+
+        function renderEmotes(category) {
+            const grid = document.getElementById("emoteGrid");
+            grid.innerHTML = "";
+            EMOTES.filter(e => e.category === category).forEach(emote => {
+                const div = document.createElement("div");
+                div.className = "emote-item";
+                div.innerHTML = `
+                    <img src="${emote.image}" alt="${emote.name}" onerror="this.src='https://via.placeholder.com/80?text=Emote'">
+                    <div style="font-weight:600;font-size:14px">${emote.name}</div>
+                    <small style="color:#64748b">ID: ${emote.emote_id}</small>
+                `;
+                div.onclick = () => {
+                    document.querySelectorAll(".emote-item").forEach(el => el.classList.remove("selected"));
+                    div.classList.add("selected");
+                    selectedEmoteId = emote.emote_id;
+                };
+                grid.appendChild(div);
+            });
+        }
+        if (categories.length) renderEmotes(categories[0]);
+
+        document.querySelectorAll(".server-btn").forEach(btn => {
+            btn.onclick = () => {
+                document.querySelectorAll(".server-btn").forEach(b => b.classList.remove("active"));
+                btn.classList.add("active");
+                selectedServer = btn.dataset.server;
+            };
+        });
+
+        document.getElementById("sendBtn").onclick = async () => {
+            const teamCode = document.getElementById("teamCode").value.trim();
+            const uids = Array.from(document.querySelectorAll(".uid-input")).map(i => i.value.trim()).filter(Boolean);
+            if (!teamCode) return showResult("Please enter Team Code first.", true);
+            if (!selectedEmoteId) return showResult("Please select an Emote.", true);
+
+            const btn = document.getElementById("sendBtn");
+            btn.disabled = true;
+            btn.innerHTML = "Sending...";
+
+            try {
+                const res = await fetch("/api/send", {
+                    method: "POST",
+                    headers: {"Content-Type": "application/json"},
+                    body: JSON.stringify({ team_code: teamCode, emote_id: selectedEmoteId, server_name: selectedServer, uids })
+                });
+                const data = await res.json();
+                showResult(data.success ? "✅ Emote Sent Successfully!" : "❌ " + (data.error || "Failed"), !data.success);
+            } catch (e) {
+                showResult("❌ Network Error", true);
+            }
+            btn.disabled = false;
+            btn.innerHTML = '<i class="fas fa-paper-plane"></i> SEND EMOTE';
+        };
+
+        function showResult(msg, error) {
+            const box = document.getElementById("result");
+            box.textContent = msg;
+            box.classList.remove("hidden", "error");
+            if (error) box.classList.add("error");
+        }
+    </script>
+</body>
+</html>

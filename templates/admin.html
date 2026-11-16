@@ -1,1 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        * { margin:0; padding:0; box-sizing:border-box; }
+        body { 
+            font-family: system-ui, -apple-system, sans-serif; 
+            background: #f1f5f9; 
+            color: #1e293b; 
+            padding-bottom: 40px;
+        }
+        header {
+            background: white;
+            padding: 16px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+            position: sticky;
+            top: 0;
+            z-index: 50;
+        }
+        .logo { font-weight: 800; font-size: 20px; color: #2563eb; }
+        .logout { 
+            background: #ef4444; 
+            color: white; 
+            padding: 8px 16px; 
+            border-radius: 10px; 
+            text-decoration: none; 
+            font-size: 14px;
+            font-weight: 600;
+        }
+        main { max-width: 900px; margin: 0 auto; padding: 20px 16px; }
+        .card { 
+            background: white; 
+            border-radius: 18px; 
+            padding: 22px; 
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.06); 
+        }
+        h2 { 
+            margin-bottom: 16px; 
+            color: #1e293b; 
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        label { 
+            display:block; 
+            margin-bottom: 6px; 
+            font-size: 13px; 
+            color: #64748b; 
+            font-weight: 600; 
+        }
+        input, select {
+            width: 100%;
+            padding: 12px 14px;
+            border: 1px solid #e2e8f0;
+            border-radius: 10px;
+            margin-bottom: 14px;
+            font-size: 15px;
+            background: #f8fafc;
+            outline: none;
+        }
+        input:focus { border-color: #2563eb; background: white; }
+        button {
+            background: #2563eb;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 15px;
+            width: 100%;
+        }
+        button:hover { background: #1d4ed8; }
+        .item { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            padding: 12px 0; 
+            border-bottom: 1px solid #f1f5f9; 
+        }
+        .item:last-child { border-bottom: none; }
+        .delete { 
+            color: #ef4444; 
+            text-decoration: none; 
+            font-size: 14px; 
+            font-weight: 600;
+            padding: 6px 10px;
+            border-radius: 8px;
+        }
+        .delete:hover { background: #fef2f2; }
+        table { 
+            width: 100%; 
+            border-collapse: collapse; 
+            margin-top: 16px; 
+        }
+        th, td { 
+            padding: 12px 8px; 
+            text-align: left; 
+            border-bottom: 1px solid #e2e8f0; 
+            font-size: 14px; 
+        }
+        th { color: #64748b; font-weight: 600; font-size: 13px; }
+        .form-row {
+            display: grid;
+            gap: 12px;
+        }
+        @media (min-width: 640px) {
+            .form-row.two { grid-template-columns: 1fr 1fr; }
+            .form-row.three { grid-template-columns: 1fr 1fr 1fr; }
+            button { width: auto; }
+        }
+        .note {
+            background: #eff6ff;
+            color: #1e40af;
+            padding: 12px 14px;
+            border-radius: 10px;
+            font-size: 13px;
+            margin-bottom: 16px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Admin Panel</div>
+        <a href="/admin/logout" class="logout">Logout</a>
+    </header>
 
+    <main>
+        <!-- Settings -->
+        <div class="card">
+            <h2><i class="fas fa-cog"></i> Settings</h2>
+            <form action="/admin/settings" method="POST">
+                <label>Site Title</label>
+                <input type="text" name="site_title" value="{{ settings.site_title }}">
+
+                <label>User Password (Login Page)</label>
+                <input type="text" name="new_user_password" value="{{ settings.user_password }}" placeholder="User password">
+
+                <label>Admin Password</label>
+                <input type="text" name="new_admin_password" placeholder="Leave blank to keep same">
+
+                <label>Get Password Link</label>
+                <input type="url" name="get_password_link" value="{{ settings.get_password_link }}">
+
+                <label>YouTube Link</label>
+                <input type="url" name="youtube_link" value="{{ settings.youtube_link }}">
+
+                <label>Telegram Link</label>
+                <input type="url" name="telegram_link" value="{{ settings.telegram_link }}">
+
+                <label>Discord Link</label>
+                <input type="url" name="discord_link" value="{{ settings.discord_link }}">
+
+                <button type="submit">Save Settings</button>
+            </form>
+        </div>
+
+        <!-- Add Region -->
+        <div class="card">
+            <h2><i class="fas fa-server"></i> Add Region / Server</h2>
+            <form action="/admin/server/add" method="POST">
+                <input type="text" name="name" placeholder="Display Name (e.g. INDIA)" required>
+                <input type="text" name="api_server" placeholder="API Server Name (e.g. ID, BD, BR, SG)" required>
+                <input type="url" name="api_url" placeholder="API URL (https://...)" required>
+                <input type="number" name="order" placeholder="Order" value="0">
+                <button type="submit">Add Region</button>
+            </form>
+            <div style="margin-top: 20px;">
+                {% for s in servers %}
+                <div class="item">
+                    <div>
+                        <strong>{{ s.name }}</strong> 
+                        <small style="color:#64748b;">(API: {{ s.api_server or s.name }})</small><br>
+                        <small style="color:#64748b;">{{ s.api_url }}</small>
+                    </div>
+                    <a href="/admin/server/delete/{{ s.id }}" class="delete" onclick="return confirm('Delete this region?')">Delete</a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- Add Emote -->
+        <div class="card">
+            <h2><i class="fas fa-smile"></i> Add Emote</h2>
+            <div class="note">
+                শুধু <b>Name</b> + <b>Emote ID</b> দিলেই হবে।<br>
+                ছবি অটোমেটিক CDN থেকে আসবে।
+            </div>
+            <form action="/admin/emote/add" method="POST">
+                <div class="form-row three">
+                    <input type="text" name="name" placeholder="Emote Name" required>
+                    <input type="text" name="emote_id" placeholder="Emote ID" required>
+                    <input type="text" name="category" placeholder="Category" value="Funny">
+                </div>
+                <button type="submit" style="margin-top: 4px;">Add Emote</button>
+            </form>
+
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Emote ID</th>
+                    <th>Category</th>
+                    <th>Preview</th>
+                    <th></th>
+                </tr>
+                {% for e in emotes %}
+                <tr>
+                    <td>
+                        <form action="/admin/emote/edit/{{ e.id }}" method="POST" style="display:flex; gap:6px; align-items:center;">
+                            <input type="text" name="name" value="{{ e.name }}" style="width:140px; margin:0; padding:6px 8px; font-size:13px;">
+                            <input type="text" name="category" value="{{ e.category }}" style="width:100px; margin:0; padding:6px 8px; font-size:13px;">
+                            <button type="submit" style="padding:6px 10px; font-size:12px; width:auto;">Save</button>
+                        </form>
+                    </td>
+                    <td>{{ e.emote_id }}</td>
+                    <td>{{ e.category }}</td>
+                    <td>
+                        <img src="{{ e.image }}" width="46" height="46" style="border-radius:8px; object-fit:cover;" onerror="this.src='https://via.placeholder.com/46?text=?'">
+                    </td>
+                    <td>
+                        <a href="/admin/emote/delete/{{ e.id }}" class="delete" onclick="return confirm('Delete?')">Delete</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </table>
+        </div>
+    </main>
+</body>
+</html>
