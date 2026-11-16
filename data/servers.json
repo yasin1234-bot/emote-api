@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "INDIA",
+    "api_server": "ID",
+    "api_url": "https://ob55-emote-api.onrender.com",
+    "order": 1
+  },
+  {
+    "id": 2,
+    "name": "BD",
+    "api_server": "BD",
+    "api_url": "https://ob55-emote-api.onrender.com",
+    "order": 2
+  },
+  {
+    "id": 3,
+    "name": "BRAZIL",
+    "api_server": "BR",
+    "api_url": "https://ob55-emote-api.onrender.com",
+    "order": 3
+  },
+  {
+    "id": 4,
+    "name": "SINGAPORE",
+    "api_server": "SG",
+    "api_url": "https://ob55-emote-api.onrender.com",
+    "order": 4
+  }
+]

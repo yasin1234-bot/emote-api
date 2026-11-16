@@ -1,1 +1,2846 @@
-
+[
+  {
+    "id": 2,
+    "emote_id": "909000063",
+    "name": "ak",
+    "category": "Evo / Max"
+  },
+  {
+    "id": 463,
+    "emote_id": "909054016",
+    "name": "awm",
+    "category": "Rare"
+  },
+  {
+    "id": 472,
+    "emote_id": "909055008",
+    "name": "awm_2",
+    "category": "Rare"
+  },
+  {
+    "id": 124,
+    "emote_id": "909000040",
+    "name": "breakdance",
+    "category": "Funny"
+  },
+  {
+    "id": 17,
+    "emote_id": "909045001",
+    "name": "cyclone",
+    "category": "Evo / Max"
+  },
+  {
+    "id": 216,
+    "emote_id": "909034008",
+    "name": "fakedeath",
+    "category": "Rare"
+  },
+  {
+    "id": 16,
+    "emote_id": "909038012",
+    "name": "g18",
+    "category": "Evo / Max"
+  },
+  {
+    "id": 13,
+    "emote_id": "909041005",
+    "name": "groza",
+    "category": "Rare"
+  },
+  {
+    "id": 7,
+    "emote_id": "909039011",
+    "name": "m10_red",
+    "category": "Evo / Max"
+  },
+  {
+    "id": 19,
+    "emote_id": "909051003",
+    "name": "m60",
+    "category": "Evo / Max"
+  },
+  {
+    "id": 63,
+    "emote_id": "909046009",
+    "name": "magmaquake",
+    "category": "Evo / Max"
+  },
+  {
+    "id": 262,
+    "emote_id": "909038006",
+    "name": "makesomenoise",
+    "category": "Evo / Max"
+  },
+  {
+    "id": 343,
+    "emote_id": "909046010",
+    "name": "maxfirepower",
+    "category": "Evo / Max"
+  },
+  {
+    "id": 4,
+    "emote_id": "909000075",
+    "name": "mp40",
+    "category": "Evo / Max"
+  },
+  {
+    "id": 18,
+    "emote_id": "909049010",
+    "name": "p90surfer",
+    "category": "Evo / Max"
+  },
+  {
+    "id": 410,
+    "emote_id": "909050021",
+    "name": "peakpoints",
+    "category": "Rare"
+  },
+  {
+    "id": 3,
+    "emote_id": "909000068",
+    "name": "scar",
+    "category": "Evo / Max"
+  },
+  {
+    "id": 115,
+    "emote_id": "909000026",
+    "name": "shakeitup",
+    "category": "Evo / Max"
+  },
+  {
+    "id": 109,
+    "emote_id": "909000019",
+    "name": "shakewithme",
+    "category": "Evo / Max"
+  },
+  {
+    "id": 119,
+    "emote_id": "909000033",
+    "name": "soulshaking",
+    "category": "Evo / Max"
+  },
+  {
+    "id": 1,
+    "emote_id": "909042007",
+    "name": "100 level",
+    "category": "Evo / Max"
+  },
+  {
+    "id": 5,
+    "emote_id": "909040010",
+    "name": "chromasonicshot",
+    "category": "Evo / Max"
+  },
+  {
+    "id": 6,
+    "emote_id": "909000081",
+    "name": "dracossoul",
+    "category": "Evo / Max"
+  },
+  {
+    "id": 8,
+    "emote_id": "909000085",
+    "name": "bornoflight",
+    "category": "Evo / Max"
+  },
+  {
+    "id": 9,
+    "emote_id": "909000090",
+    "name": "bloodwraith",
+    "category": "Evo / Max"
+  },
+  {
+    "id": 10,
+    "emote_id": "909000098",
+    "name": "ump",
+    "category": "Evo / Max"
+  },
+  {
+    "id": 11,
+    "emote_id": "909035007",
+    "name": "weaponmagician",
+    "category": "Evo / Max"
+  },
+  {
+    "id": 12,
+    "emote_id": "909037011",
+    "name": "drachentear",
+    "category": "Evo / Max"
+  },
+  {
+    "id": 14,
+    "emote_id": "909033001",
+    "name": "fireborn",
+    "category": "Evo / Max"
+  },
+  {
+    "id": 15,
+    "emote_id": "909038010",
+    "name": "cindersummon",
+    "category": "Evo / Max"
+  },
+  {
+    "id": 20,
+    "emote_id": "909035012",
+    "name": "howlersrage",
+    "category": "Evo / Max"
+  },
+  {
+    "id": 21,
+    "emote_id": "909042008",
+    "name": "realtiger",
+    "category": "Evo / Max"
+  },
+  {
+    "id": 127,
+    "emote_id": "909000043",
+    "name": "aimfire",
+    "category": "Rare"
+  },
+  {
+    "id": 25,
+    "emote_id": "909000015",
+    "name": "dragonfist",
+    "category": "Rare"
+  },
+  {
+    "id": 310,
+    "emote_id": "909043007",
+    "name": "dragonswipe",
+    "category": "Rare"
+  },
+  {
+    "id": 398,
+    "emote_id": "909050005",
+    "name": "fireballjutsu",
+    "category": "Rare"
+  },
+  {
+    "id": 77,
+    "emote_id": "909039012",
+    "name": "firebeasttamer",
+    "category": "Rare"
+  },
+  {
+    "id": 190,
+    "emote_id": "909000133",
+    "name": "fireslam",
+    "category": "Rare"
+  },
+  {
+    "id": 345,
+    "emote_id": "909046012",
+    "name": "firestarter",
+    "category": "Rare"
+  },
+  {
+    "id": 294,
+    "emote_id": "909042003",
+    "name": "frostfirecalling",
+    "category": "Rare"
+  },
+  {
+    "id": 160,
+    "emote_id": "909000086",
+    "name": "mythosfour",
+    "category": "Rare"
+  },
+  {
+    "id": 282,
+    "emote_id": "909040011",
+    "name": "playwiththunderbolt",
+    "category": "Rare"
+  },
+  {
+    "id": 78,
+    "emote_id": "909042001",
+    "name": "stirfryfrostfire",
+    "category": "Rare"
+  },
+  {
+    "id": 54,
+    "emote_id": "909041001",
+    "name": "thunderflash",
+    "category": "Rare"
+  },
+  {
+    "id": 70,
+    "emote_id": "909047006",
+    "name": "acceptancespeech",
+    "category": "Funny"
+  },
+  {
+    "id": 269,
+    "emote_id": "909039005",
+    "name": "achingpower",
+    "category": "Funny"
+  },
+  {
+    "id": 246,
+    "emote_id": "909036014",
+    "name": "admire",
+    "category": "Funny"
+  },
+  {
+    "id": 239,
+    "emote_id": "909036005",
+    "name": "agileboxer",
+    "category": "Funny"
+  },
+  {
+    "id": 165,
+    "emote_id": "909000093",
+    "name": "allincontrol",
+    "category": "Funny"
+  },
+  {
+    "id": 73,
+    "emote_id": "909051001",
+    "name": "angelic",
+    "category": "Funny"
+  },
+  {
+    "id": 261,
+    "emote_id": "909038005",
+    "name": "angrywalk",
+    "category": "Funny"
+  },
+  {
+    "id": 283,
+    "emote_id": "909040012",
+    "name": "anniversary",
+    "category": "Funny"
+  },
+  {
+    "id": 103,
+    "emote_id": "909000004",
+    "name": "applause",
+    "category": "Funny"
+  },
+  {
+    "id": 104,
+    "emote_id": "909000007",
+    "name": "armwave",
+    "category": "Funny"
+  },
+  {
+    "id": 267,
+    "emote_id": "909039002",
+    "name": "artisticdance",
+    "category": "Funny"
+  },
+  {
+    "id": 335,
+    "emote_id": "909046001",
+    "name": "auraboarder",
+    "category": "Funny"
+  },
+  {
+    "id": 350,
+    "emote_id": "909047002",
+    "name": "aurora",
+    "category": "Funny"
+  },
+  {
+    "id": 105,
+    "emote_id": "909000009",
+    "name": "babyshark",
+    "category": "Funny"
+  },
+  {
+    "id": 376,
+    "emote_id": "909048018",
+    "name": "bailalorocky",
+    "category": "Funny"
+  },
+  {
+    "id": 247,
+    "emote_id": "909037002",
+    "name": "bamboodance",
+    "category": "Funny"
+  },
+  {
+    "id": 316,
+    "emote_id": "909044003",
+    "name": "basketrafting",
+    "category": "Funny"
+  },
+  {
+    "id": 52,
+    "emote_id": "909041015",
+    "name": "basudaradance",
+    "category": "Funny"
+  },
+  {
+    "id": 113,
+    "emote_id": "909000024",
+    "name": "battledance",
+    "category": "Funny"
+  },
+  {
+    "id": 185,
+    "emote_id": "909000127",
+    "name": "battleinstyle",
+    "category": "Funny"
+  },
+  {
+    "id": 255,
+    "emote_id": "909037010",
+    "name": "beasttease",
+    "category": "Funny"
+  },
+  {
+    "id": 98,
+    "emote_id": "909046014",
+    "name": "beatdrop",
+    "category": "Funny"
+  },
+  {
+    "id": 231,
+    "emote_id": "909035010",
+    "name": "beautifullove",
+    "category": "Funny"
+  },
+  {
+    "id": 83,
+    "emote_id": "909049001",
+    "name": "bigdill",
+    "category": "Funny"
+  },
+  {
+    "id": 163,
+    "emote_id": "909000091",
+    "name": "bigsmash",
+    "category": "Funny"
+  },
+  {
+    "id": 49,
+    "emote_id": "909040008",
+    "name": "birthofjustice",
+    "category": "Funny"
+  },
+  {
+    "id": 404,
+    "emote_id": "909050013",
+    "name": "bladefromheart",
+    "category": "Funny"
+  },
+  {
+    "id": 229,
+    "emote_id": "909035008",
+    "name": "bobbledance",
+    "category": "Funny"
+  },
+  {
+    "id": 126,
+    "emote_id": "909000042",
+    "name": "bonappetit",
+    "category": "Funny"
+  },
+  {
+    "id": 336,
+    "emote_id": "909046002",
+    "name": "booyahchamp",
+    "category": "Funny"
+  },
+  {
+    "id": 75,
+    "emote_id": "909033006",
+    "name": "booyahsparks",
+    "category": "Funny"
+  },
+  {
+    "id": 37,
+    "emote_id": "909051012",
+    "name": "bow",
+    "category": "Funny"
+  },
+  {
+    "id": 386,
+    "emote_id": "909049011",
+    "name": "boxingmachine",
+    "category": "Funny"
+  },
+  {
+    "id": 291,
+    "emote_id": "909041012",
+    "name": "brgrandmaster",
+    "category": "Funny"
+  },
+  {
+    "id": 218,
+    "emote_id": "909034010",
+    "name": "brheroic",
+    "category": "Funny"
+  },
+  {
+    "id": 130,
+    "emote_id": "909000047",
+    "name": "bringiton",
+    "category": "Funny"
+  },
+  {
+    "id": 219,
+    "emote_id": "909034011",
+    "name": "brmaster",
+    "category": "Funny"
+  },
+  {
+    "id": 403,
+    "emote_id": "909050012",
+    "name": "broomswoosh",
+    "category": "Funny"
+  },
+  {
+    "id": 402,
+    "emote_id": "909050011",
+    "name": "bunnyaction",
+    "category": "Funny"
+  },
+  {
+    "id": 406,
+    "emote_id": "909050017",
+    "name": "bunnywiggle",
+    "category": "Funny"
+  },
+  {
+    "id": 195,
+    "emote_id": "909000138",
+    "name": "burntbbq",
+    "category": "Funny"
+  },
+  {
+    "id": 314,
+    "emote_id": "909044001",
+    "name": "bytemounting",
+    "category": "Funny"
+  },
+  {
+    "id": 412,
+    "emote_id": "909051007",
+    "name": "c1",
+    "category": "Funny"
+  },
+  {
+    "id": 423,
+    "emote_id": "909052005",
+    "name": "c10",
+    "category": "Funny"
+  },
+  {
+    "id": 425,
+    "emote_id": "909052007",
+    "name": "c11",
+    "category": "Funny"
+  },
+  {
+    "id": 424,
+    "emote_id": "909052006",
+    "name": "c12",
+    "category": "Funny"
+  },
+  {
+    "id": 419,
+    "emote_id": "909052001",
+    "name": "c13",
+    "category": "Funny"
+  },
+  {
+    "id": 426,
+    "emote_id": "909052008",
+    "name": "c14",
+    "category": "Funny"
+  },
+  {
+    "id": 430,
+    "emote_id": "909052012",
+    "name": "c15",
+    "category": "Funny"
+  },
+  {
+    "id": 428,
+    "emote_id": "909052010",
+    "name": "c16",
+    "category": "Funny"
+  },
+  {
+    "id": 413,
+    "emote_id": "909051009",
+    "name": "c2",
+    "category": "Funny"
+  },
+  {
+    "id": 414,
+    "emote_id": "909051011",
+    "name": "c3",
+    "category": "Funny"
+  },
+  {
+    "id": 415,
+    "emote_id": "909051017",
+    "name": "c4",
+    "category": "Funny"
+  },
+  {
+    "id": 416,
+    "emote_id": "909051018",
+    "name": "c5",
+    "category": "Funny"
+  },
+  {
+    "id": 417,
+    "emote_id": "909051019",
+    "name": "c6",
+    "category": "Funny"
+  },
+  {
+    "id": 418,
+    "emote_id": "909051020",
+    "name": "c7",
+    "category": "Funny"
+  },
+  {
+    "id": 422,
+    "emote_id": "909052004",
+    "name": "c8",
+    "category": "Funny"
+  },
+  {
+    "id": 420,
+    "emote_id": "909052002",
+    "name": "c9",
+    "category": "Funny"
+  },
+  {
+    "id": 344,
+    "emote_id": "909046011",
+    "name": "canttouchthis",
+    "category": "Funny"
+  },
+  {
+    "id": 329,
+    "emote_id": "909045005",
+    "name": "captainvictor",
+    "category": "Funny"
+  },
+  {
+    "id": 372,
+    "emote_id": "909048013",
+    "name": "carnivalfunk",
+    "category": "Funny"
+  },
+  {
+    "id": 298,
+    "emote_id": "909042009",
+    "name": "celebrationschuss",
+    "category": "Funny"
+  },
+  {
+    "id": 366,
+    "emote_id": "909048006",
+    "name": "chacchac",
+    "category": "Funny"
+  },
+  {
+    "id": 134,
+    "emote_id": "909000053",
+    "name": "challengeon",
+    "category": "Funny"
+  },
+  {
+    "id": 170,
+    "emote_id": "909000099",
+    "name": "challenger",
+    "category": "Funny"
+  },
+  {
+    "id": 94,
+    "emote_id": "909000087",
+    "name": "championgrab",
+    "category": "Funny"
+  },
+  {
+    "id": 60,
+    "emote_id": "909045017",
+    "name": "championswalk",
+    "category": "Funny"
+  },
+  {
+    "id": 338,
+    "emote_id": "909046004",
+    "name": "cheerstovictory",
+    "category": "Funny"
+  },
+  {
+    "id": 27,
+    "emote_id": "909000006",
+    "name": "chicken",
+    "category": "Funny"
+  },
+  {
+    "id": 275,
+    "emote_id": "909040001",
+    "name": "chromaticfinish",
+    "category": "Funny"
+  },
+  {
+    "id": 279,
+    "emote_id": "909040005",
+    "name": "chromaticpop",
+    "category": "Funny"
+  },
+  {
+    "id": 280,
+    "emote_id": "909040006",
+    "name": "chromatwist",
+    "category": "Funny"
+  },
+  {
+    "id": 209,
+    "emote_id": "909034001",
+    "name": "chronicle",
+    "category": "Funny"
+  },
+  {
+    "id": 33,
+    "emote_id": "909050009",
+    "name": "circle",
+    "category": "Funny"
+  },
+  {
+    "id": 384,
+    "emote_id": "909049008",
+    "name": "clapclaphooray",
+    "category": "Funny"
+  },
+  {
+    "id": 256,
+    "emote_id": "909037012",
+    "name": "clapdance",
+    "category": "Funny"
+  },
+  {
+    "id": 321,
+    "emote_id": "909044008",
+    "name": "claphands",
+    "category": "Funny"
+  },
+  {
+    "id": 360,
+    "emote_id": "909047019",
+    "name": "clonejutsu",
+    "category": "Funny"
+  },
+  {
+    "id": 149,
+    "emote_id": "909000072",
+    "name": "cobra",
+    "category": "Funny"
+  },
+  {
+    "id": 210,
+    "emote_id": "909034002",
+    "name": "collapse",
+    "category": "Funny"
+  },
+  {
+    "id": 309,
+    "emote_id": "909043006",
+    "name": "colorburst",
+    "category": "Funny"
+  },
+  {
+    "id": 204,
+    "emote_id": "909033003",
+    "name": "comeanddance",
+    "category": "Funny"
+  },
+  {
+    "id": 387,
+    "emote_id": "909049013",
+    "name": "comicbarf",
+    "category": "Funny"
+  },
+  {
+    "id": 248,
+    "emote_id": "909037003",
+    "name": "constellationdance",
+    "category": "Funny"
+  },
+  {
+    "id": 337,
+    "emote_id": "909046003",
+    "name": "controlledcombustion",
+    "category": "Funny"
+  },
+  {
+    "id": 351,
+    "emote_id": "909047003",
+    "name": "couchfortwo",
+    "category": "Funny"
+  },
+  {
+    "id": 116,
+    "emote_id": "909000028",
+    "name": "cranekick",
+    "category": "Funny"
+  },
+  {
+    "id": 168,
+    "emote_id": "909000096",
+    "name": "crazyguitar",
+    "category": "Funny"
+  },
+  {
+    "id": 382,
+    "emote_id": "909049006",
+    "name": "creationdays",
+    "category": "Funny"
+  },
+  {
+    "id": 235,
+    "emote_id": "909035015",
+    "name": "creatorinaction",
+    "category": "Funny"
+  },
+  {
+    "id": 197,
+    "emote_id": "909000140",
+    "name": "creedslay",
+    "category": "Funny"
+  },
+  {
+    "id": 50,
+    "emote_id": "909039013",
+    "name": "crimsontunes",
+    "category": "Funny"
+  },
+  {
+    "id": 263,
+    "emote_id": "909038008",
+    "name": "crocohooray",
+    "category": "Funny"
+  },
+  {
+    "id": 341,
+    "emote_id": "909046007",
+    "name": "crowdpleaser",
+    "category": "Funny"
+  },
+  {
+    "id": 89,
+    "emote_id": "909041013",
+    "name": "csgm",
+    "category": "Funny"
+  },
+  {
+    "id": 220,
+    "emote_id": "909034012",
+    "name": "csheroic",
+    "category": "Funny"
+  },
+  {
+    "id": 221,
+    "emote_id": "909034013",
+    "name": "csmaster",
+    "category": "Funny"
+  },
+  {
+    "id": 31,
+    "emote_id": "909000005",
+    "name": "dab",
+    "category": "Funny"
+  },
+  {
+    "id": 51,
+    "emote_id": "909041006",
+    "name": "dancepuppet",
+    "category": "Funny"
+  },
+  {
+    "id": 107,
+    "emote_id": "909000016",
+    "name": "dangerousgame",
+    "category": "Funny"
+  },
+  {
+    "id": 299,
+    "emote_id": "909042011",
+    "name": "dawnvoyage",
+    "category": "Funny"
+  },
+  {
+    "id": 121,
+    "emote_id": "909000037",
+    "name": "deathglare",
+    "category": "Funny"
+  },
+  {
+    "id": 166,
+    "emote_id": "909000094",
+    "name": "debugging",
+    "category": "Funny"
+  },
+  {
+    "id": 22,
+    "emote_id": "909000020",
+    "name": "devilsmove",
+    "category": "Funny"
+  },
+  {
+    "id": 392,
+    "emote_id": "909049018",
+    "name": "discodazzle",
+    "category": "Funny"
+  },
+  {
+    "id": 133,
+    "emote_id": "909000052",
+    "name": "doggie",
+    "category": "Funny"
+  },
+  {
+    "id": 322,
+    "emote_id": "909044009",
+    "name": "donedeal",
+    "category": "Funny"
+  },
+  {
+    "id": 411,
+    "emote_id": "909051002",
+    "name": "dream",
+    "category": "Funny"
+  },
+  {
+    "id": 179,
+    "emote_id": "909000121",
+    "name": "dribbleking",
+    "category": "Funny"
+  },
+  {
+    "id": 388,
+    "emote_id": "909049014",
+    "name": "driveby",
+    "category": "Funny"
+  },
+  {
+    "id": 46,
+    "emote_id": "909033004",
+    "name": "dropkick",
+    "category": "Funny"
+  },
+  {
+    "id": 401,
+    "emote_id": "909050010",
+    "name": "drumtwirl",
+    "category": "Funny"
+  },
+  {
+    "id": 48,
+    "emote_id": "909039006",
+    "name": "earthlyforce",
+    "category": "Funny"
+  },
+  {
+    "id": 206,
+    "emote_id": "909033008",
+    "name": "easypeasy",
+    "category": "Funny"
+  },
+  {
+    "id": 123,
+    "emote_id": "909000039",
+    "name": "eatmydust",
+    "category": "Funny"
+  },
+  {
+    "id": 137,
+    "emote_id": "909000056",
+    "name": "emote_136",
+    "category": "Funny"
+  },
+  {
+    "id": 138,
+    "emote_id": "909000057",
+    "name": "emote_137",
+    "category": "Funny"
+  },
+  {
+    "id": 139,
+    "emote_id": "909000058",
+    "name": "emote_138",
+    "category": "Funny"
+  },
+  {
+    "id": 140,
+    "emote_id": "909000059",
+    "name": "emote_139",
+    "category": "Funny"
+  },
+  {
+    "id": 141,
+    "emote_id": "909000060",
+    "name": "emote_140",
+    "category": "Funny"
+  },
+  {
+    "id": 142,
+    "emote_id": "909000061",
+    "name": "emote_141",
+    "category": "Funny"
+  },
+  {
+    "id": 143,
+    "emote_id": "909000062",
+    "name": "emote_142",
+    "category": "Funny"
+  },
+  {
+    "id": 144,
+    "emote_id": "909000065",
+    "name": "emote_143",
+    "category": "Funny"
+  },
+  {
+    "id": 145,
+    "emote_id": "909000066",
+    "name": "emote_144",
+    "category": "Funny"
+  },
+  {
+    "id": 146,
+    "emote_id": "909000069",
+    "name": "emote_145",
+    "category": "Funny"
+  },
+  {
+    "id": 147,
+    "emote_id": "909000070",
+    "name": "emote_146",
+    "category": "Funny"
+  },
+  {
+    "id": 148,
+    "emote_id": "909000071",
+    "name": "emote_147",
+    "category": "Funny"
+  },
+  {
+    "id": 150,
+    "emote_id": "909000073",
+    "name": "emote_149",
+    "category": "Funny"
+  },
+  {
+    "id": 151,
+    "emote_id": "909000074",
+    "name": "emote_150",
+    "category": "Funny"
+  },
+  {
+    "id": 152,
+    "emote_id": "909000076",
+    "name": "emote_151",
+    "category": "Funny"
+  },
+  {
+    "id": 153,
+    "emote_id": "909000077",
+    "name": "emote_152",
+    "category": "Funny"
+  },
+  {
+    "id": 154,
+    "emote_id": "909000078",
+    "name": "emote_153",
+    "category": "Funny"
+  },
+  {
+    "id": 23,
+    "emote_id": "909000064",
+    "name": "emote_22",
+    "category": "Funny"
+  },
+  {
+    "id": 285,
+    "emote_id": "909040014",
+    "name": "emote_284",
+    "category": "Funny"
+  },
+  {
+    "id": 302,
+    "emote_id": "909042017",
+    "name": "emote_301",
+    "category": "Funny"
+  },
+  {
+    "id": 34,
+    "emote_id": "909051015",
+    "name": "emote_33",
+    "category": "Funny"
+  },
+  {
+    "id": 38,
+    "emote_id": "909051006",
+    "name": "emote_37",
+    "category": "Funny"
+  },
+  {
+    "id": 377,
+    "emote_id": "909048019",
+    "name": "emote_376",
+    "category": "Funny"
+  },
+  {
+    "id": 378,
+    "emote_id": "909048020",
+    "name": "emote_377",
+    "category": "Funny"
+  },
+  {
+    "id": 379,
+    "emote_id": "909048021",
+    "name": "emote_378",
+    "category": "Funny"
+  },
+  {
+    "id": 39,
+    "emote_id": "909051008",
+    "name": "emote_38",
+    "category": "Funny"
+  },
+  {
+    "id": 41,
+    "emote_id": "909051005",
+    "name": "emote_40",
+    "category": "Funny"
+  },
+  {
+    "id": 449,
+    "emote_id": "909054001",
+    "name": "emote_448",
+    "category": "Funny"
+  },
+  {
+    "id": 450,
+    "emote_id": "909054002",
+    "name": "emote_449",
+    "category": "Funny"
+  },
+  {
+    "id": 451,
+    "emote_id": "909054003",
+    "name": "emote_450",
+    "category": "Funny"
+  },
+  {
+    "id": 452,
+    "emote_id": "909054004",
+    "name": "emote_451",
+    "category": "Funny"
+  },
+  {
+    "id": 453,
+    "emote_id": "909054005",
+    "name": "emote_452",
+    "category": "Funny"
+  },
+  {
+    "id": 454,
+    "emote_id": "909054006",
+    "name": "emote_453",
+    "category": "Funny"
+  },
+  {
+    "id": 455,
+    "emote_id": "909054007",
+    "name": "emote_454",
+    "category": "Funny"
+  },
+  {
+    "id": 456,
+    "emote_id": "909054008",
+    "name": "emote_455",
+    "category": "Funny"
+  },
+  {
+    "id": 457,
+    "emote_id": "909054009",
+    "name": "emote_456",
+    "category": "Funny"
+  },
+  {
+    "id": 458,
+    "emote_id": "909054010",
+    "name": "emote_457",
+    "category": "Funny"
+  },
+  {
+    "id": 459,
+    "emote_id": "909054011",
+    "name": "emote_458",
+    "category": "Funny"
+  },
+  {
+    "id": 460,
+    "emote_id": "909054012",
+    "name": "emote_459",
+    "category": "Funny"
+  },
+  {
+    "id": 461,
+    "emote_id": "909054013",
+    "name": "emote_460",
+    "category": "Funny"
+  },
+  {
+    "id": 462,
+    "emote_id": "909054015",
+    "name": "emote_461",
+    "category": "Funny"
+  },
+  {
+    "id": 79,
+    "emote_id": "909051016",
+    "name": "emote_78",
+    "category": "Funny"
+  },
+  {
+    "id": 80,
+    "emote_id": "909050030",
+    "name": "emote_79",
+    "category": "Funny"
+  },
+  {
+    "id": 81,
+    "emote_id": "909050029",
+    "name": "emote_80",
+    "category": "Funny"
+  },
+  {
+    "id": 306,
+    "emote_id": "909043003",
+    "name": "emperortreasure",
+    "category": "Funny"
+  },
+  {
+    "id": 187,
+    "emote_id": "909000130",
+    "name": "endlessbullets",
+    "category": "Funny"
+  },
+  {
+    "id": 212,
+    "emote_id": "909034004",
+    "name": "energetic",
+    "category": "Funny"
+  },
+  {
+    "id": 244,
+    "emote_id": "909036011",
+    "name": "eternaldescent",
+    "category": "Funny"
+  },
+  {
+    "id": 297,
+    "emote_id": "909042006",
+    "name": "excellentservice",
+    "category": "Funny"
+  },
+  {
+    "id": 131,
+    "emote_id": "909000049",
+    "name": "fancyhands",
+    "category": "Funny"
+  },
+  {
+    "id": 164,
+    "emote_id": "909000092",
+    "name": "fancysteps",
+    "category": "Funny"
+  },
+  {
+    "id": 99,
+    "emote_id": "909041009",
+    "name": "feeltheelectricity",
+    "category": "Funny"
+  },
+  {
+    "id": 47,
+    "emote_id": "909039001",
+    "name": "festival",
+    "category": "Funny"
+  },
+  {
+    "id": 156,
+    "emote_id": "909000080",
+    "name": "ffws2021",
+    "category": "Funny"
+  },
+  {
+    "id": 205,
+    "emote_id": "909033007",
+    "name": "ffwsdance",
+    "category": "Funny"
+  },
+  {
+    "id": 346,
+    "emote_id": "909046013",
+    "name": "ffwsflag",
+    "category": "Funny"
+  },
+  {
+    "id": 180,
+    "emote_id": "909000122",
+    "name": "ffwsguitar",
+    "category": "Funny"
+  },
+  {
+    "id": 397,
+    "emote_id": "909050003",
+    "name": "finalbattle",
+    "category": "Funny"
+  },
+  {
+    "id": 278,
+    "emote_id": "909040004",
+    "name": "fish",
+    "category": "Funny"
+  },
+  {
+    "id": 370,
+    "emote_id": "909048011",
+    "name": "flagsummon",
+    "category": "Funny"
+  },
+  {
+    "id": 211,
+    "emote_id": "909034003",
+    "name": "flaminggroove",
+    "category": "Funny"
+  },
+  {
+    "id": 407,
+    "emote_id": "909050018",
+    "name": "flamingheart",
+    "category": "Funny"
+  },
+  {
+    "id": 288,
+    "emote_id": "909041008",
+    "name": "flar",
+    "category": "Funny"
+  },
+  {
+    "id": 273,
+    "emote_id": "909039010",
+    "name": "flex",
+    "category": "Funny"
+  },
+  {
+    "id": 87,
+    "emote_id": "909045015",
+    "name": "floatingmeditation",
+    "category": "Funny"
+  },
+  {
+    "id": 62,
+    "emote_id": "909045010",
+    "name": "flowersalute",
+    "category": "Funny"
+  },
+  {
+    "id": 43,
+    "emote_id": "909000010",
+    "name": "flowrs",
+    "category": "Funny"
+  },
+  {
+    "id": 71,
+    "emote_id": "909047004",
+    "name": "flutterdash",
+    "category": "Funny"
+  },
+  {
+    "id": 61,
+    "emote_id": "909049012",
+    "name": "flyingguns",
+    "category": "Funny"
+  },
+  {
+    "id": 286,
+    "emote_id": "909041004",
+    "name": "flyinginksword",
+    "category": "Funny"
+  },
+  {
+    "id": 399,
+    "emote_id": "909050006",
+    "name": "flyingraijin",
+    "category": "Funny"
+  },
+  {
+    "id": 228,
+    "emote_id": "909035006",
+    "name": "flyingsaucer",
+    "category": "Funny"
+  },
+  {
+    "id": 85,
+    "emote_id": "909050004",
+    "name": "foreheadpoke",
+    "category": "Funny"
+  },
+  {
+    "id": 268,
+    "emote_id": "909039003",
+    "name": "forwardbackward",
+    "category": "Funny"
+  },
+  {
+    "id": 58,
+    "emote_id": "909045011",
+    "name": "foxyrun",
+    "category": "Funny"
+  },
+  {
+    "id": 223,
+    "emote_id": "909035001",
+    "name": "freemoney",
+    "category": "Funny"
+  },
+  {
+    "id": 110,
+    "emote_id": "909000021",
+    "name": "furiousslam",
+    "category": "Funny"
+  },
+  {
+    "id": 236,
+    "emote_id": "909036001",
+    "name": "ghostfloat",
+    "category": "Funny"
+  },
+  {
+    "id": 327,
+    "emote_id": "909045003",
+    "name": "giddyup",
+    "category": "Funny"
+  },
+  {
+    "id": 30,
+    "emote_id": "909000027",
+    "name": "gloriousspin",
+    "category": "Funny"
+  },
+  {
+    "id": 182,
+    "emote_id": "909000124",
+    "name": "goldencombo",
+    "category": "Funny"
+  },
+  {
+    "id": 203,
+    "emote_id": "909033002",
+    "name": "goldenfeather",
+    "category": "Funny"
+  },
+  {
+    "id": 157,
+    "emote_id": "909000082",
+    "name": "goodgame",
+    "category": "Funny"
+  },
+  {
+    "id": 368,
+    "emote_id": "909048009",
+    "name": "goofycamel",
+    "category": "Funny"
+  },
+  {
+    "id": 328,
+    "emote_id": "909045004",
+    "name": "goosydance",
+    "category": "Funny"
+  },
+  {
+    "id": 272,
+    "emote_id": "909039009",
+    "name": "graceonwheels",
+    "category": "Funny"
+  },
+  {
+    "id": 90,
+    "emote_id": "909036004",
+    "name": "grafficameraman",
+    "category": "Funny"
+  },
+  {
+    "id": 215,
+    "emote_id": "909034007",
+    "name": "greatconductor",
+    "category": "Funny"
+  },
+  {
+    "id": 158,
+    "emote_id": "909000083",
+    "name": "greetings",
+    "category": "Funny"
+  },
+  {
+    "id": 270,
+    "emote_id": "909039007",
+    "name": "grenademagic",
+    "category": "Funny"
+  },
+  {
+    "id": 232,
+    "emote_id": "909035011",
+    "name": "groovemoves",
+    "category": "Funny"
+  },
+  {
+    "id": 391,
+    "emote_id": "909049017",
+    "name": "guildflag",
+    "category": "Funny"
+  },
+  {
+    "id": 363,
+    "emote_id": "909048003",
+    "name": "guitargroove",
+    "category": "Funny"
+  },
+  {
+    "id": 340,
+    "emote_id": "909046006",
+    "name": "gunspinning",
+    "category": "Funny"
+  },
+  {
+    "id": 162,
+    "emote_id": "909000089",
+    "name": "hadouken",
+    "category": "Funny"
+  },
+  {
+    "id": 375,
+    "emote_id": "909048016",
+    "name": "halftime",
+    "category": "Funny"
+  },
+  {
+    "id": 194,
+    "emote_id": "909000137",
+    "name": "haloofmusic",
+    "category": "Funny"
+  },
+  {
+    "id": 301,
+    "emote_id": "909042016",
+    "name": "handgrooves",
+    "category": "Funny"
+  },
+  {
+    "id": 86,
+    "emote_id": "909049002",
+    "name": "handraise",
+    "category": "Funny"
+  },
+  {
+    "id": 252,
+    "emote_id": "909037007",
+    "name": "happydancing",
+    "category": "Funny"
+  },
+  {
+    "id": 317,
+    "emote_id": "909044004",
+    "name": "happylamb",
+    "category": "Funny"
+  },
+  {
+    "id": 319,
+    "emote_id": "909044006",
+    "name": "harmoniousparadox",
+    "category": "Funny"
+  },
+  {
+    "id": 395,
+    "emote_id": "909049021",
+    "name": "headhigh",
+    "category": "Funny"
+  },
+  {
+    "id": 120,
+    "emote_id": "909000035",
+    "name": "healingdance",
+    "category": "Funny"
+  },
+  {
+    "id": 191,
+    "emote_id": "909000134",
+    "name": "heartbroken",
+    "category": "Funny"
+  },
+  {
+    "id": 199,
+    "emote_id": "909000143",
+    "name": "helicoptership",
+    "category": "Funny"
+  },
+  {
+    "id": 101,
+    "emote_id": "909000001",
+    "name": "hi",
+    "category": "Funny"
+  },
+  {
+    "id": 114,
+    "emote_id": "909000025",
+    "name": "highfive",
+    "category": "Funny"
+  },
+  {
+    "id": 287,
+    "emote_id": "909041007",
+    "name": "highknees",
+    "category": "Funny"
+  },
+  {
+    "id": 355,
+    "emote_id": "909047011",
+    "name": "hiptwists",
+    "category": "Funny"
+  },
+  {
+    "id": 369,
+    "emote_id": "909048010",
+    "name": "hitasix",
+    "category": "Funny"
+  },
+  {
+    "id": 325,
+    "emote_id": "909044016",
+    "name": "honkup",
+    "category": "Funny"
+  },
+  {
+    "id": 290,
+    "emote_id": "909041011",
+    "name": "honorablemention",
+    "category": "Funny"
+  },
+  {
+    "id": 308,
+    "emote_id": "909043005",
+    "name": "hugefeast",
+    "category": "Funny"
+  },
+  {
+    "id": 429,
+    "emote_id": "909052011",
+    "name": "husky",
+    "category": "Funny"
+  },
+  {
+    "id": 44,
+    "emote_id": "909000045",
+    "name": "iheartyou",
+    "category": "Funny"
+  },
+  {
+    "id": 136,
+    "emote_id": "909000055",
+    "name": "imrich",
+    "category": "Funny"
+  },
+  {
+    "id": 385,
+    "emote_id": "909049009",
+    "name": "infiniteloops",
+    "category": "Funny"
+  },
+  {
+    "id": 257,
+    "emote_id": "909038001",
+    "name": "influencer",
+    "category": "Funny"
+  },
+  {
+    "id": 305,
+    "emote_id": "909043002",
+    "name": "innerself",
+    "category": "Funny"
+  },
+  {
+    "id": 53,
+    "emote_id": "909041003",
+    "name": "inosuke",
+    "category": "Funny"
+  },
+  {
+    "id": 29,
+    "emote_id": "909000017",
+    "name": "jaguardance",
+    "category": "Funny"
+  },
+  {
+    "id": 117,
+    "emote_id": "909000031",
+    "name": "jigdance",
+    "category": "Funny"
+  },
+  {
+    "id": 68,
+    "emote_id": "909047012",
+    "name": "jkt48",
+    "category": "Funny"
+  },
+  {
+    "id": 253,
+    "emote_id": "909037008",
+    "name": "juggle",
+    "category": "Funny"
+  },
+  {
+    "id": 303,
+    "emote_id": "909042018",
+    "name": "kemusan",
+    "category": "Funny"
+  },
+  {
+    "id": 364,
+    "emote_id": "909048004",
+    "name": "keyboardplayer",
+    "category": "Funny"
+  },
+  {
+    "id": 125,
+    "emote_id": "909000041",
+    "name": "kungfu",
+    "category": "Funny"
+  },
+  {
+    "id": 200,
+    "emote_id": "909000144",
+    "name": "kungfutigers",
+    "category": "Funny"
+  },
+  {
+    "id": 76,
+    "emote_id": "909042012",
+    "name": "lamborghiniride",
+    "category": "Funny"
+  },
+  {
+    "id": 135,
+    "emote_id": "909000054",
+    "name": "lasso",
+    "category": "Funny"
+  },
+  {
+    "id": 95,
+    "emote_id": "909000141",
+    "name": "leapoffail",
+    "category": "Funny"
+  },
+  {
+    "id": 100,
+    "emote_id": "909000002",
+    "name": "lol",
+    "category": "Funny"
+  },
+  {
+    "id": 233,
+    "emote_id": "909035013",
+    "name": "louderplease",
+    "category": "Funny"
+  },
+  {
+    "id": 66,
+    "emote_id": "909047007",
+    "name": "lovemelovemenot",
+    "category": "Funny"
+  },
+  {
+    "id": 258,
+    "emote_id": "909038002",
+    "name": "macarena",
+    "category": "Funny"
+  },
+  {
+    "id": 74,
+    "emote_id": "909050014",
+    "name": "mapread",
+    "category": "Funny"
+  },
+  {
+    "id": 421,
+    "emote_id": "909052003",
+    "name": "marching",
+    "category": "Funny"
+  },
+  {
+    "id": 69,
+    "emote_id": "909047010",
+    "name": "matchcountdown",
+    "category": "Funny"
+  },
+  {
+    "id": 362,
+    "emote_id": "909048002",
+    "name": "midnightperuse",
+    "category": "Funny"
+  },
+  {
+    "id": 181,
+    "emote_id": "909000123",
+    "name": "mindit",
+    "category": "Funny"
+  },
+  {
+    "id": 293,
+    "emote_id": "909042002",
+    "name": "moneyrain",
+    "category": "Funny"
+  },
+  {
+    "id": 186,
+    "emote_id": "909000129",
+    "name": "moneythrow",
+    "category": "Funny"
+  },
+  {
+    "id": 292,
+    "emote_id": "909041014",
+    "name": "monsterclubbing",
+    "category": "Funny"
+  },
+  {
+    "id": 111,
+    "emote_id": "909000022",
+    "name": "moonflip",
+    "category": "Funny"
+  },
+  {
+    "id": 333,
+    "emote_id": "909045009",
+    "name": "moonwalk",
+    "category": "Funny"
+  },
+  {
+    "id": 155,
+    "emote_id": "909000079",
+    "name": "morepractice",
+    "category": "Funny"
+  },
+  {
+    "id": 40,
+    "emote_id": "909051010",
+    "name": "motorbike",
+    "category": "Funny"
+  },
+  {
+    "id": 26,
+    "emote_id": "909000011",
+    "name": "mummydance",
+    "category": "Funny"
+  },
+  {
+    "id": 59,
+    "emote_id": "909045016",
+    "name": "naatunaatu",
+    "category": "Funny"
+  },
+  {
+    "id": 254,
+    "emote_id": "909037009",
+    "name": "neonsign",
+    "category": "Funny"
+  },
+  {
+    "id": 441,
+    "emote_id": "909053008",
+    "name": "new1",
+    "category": "Funny"
+  },
+  {
+    "id": 464,
+    "emote_id": "909054017",
+    "name": "new10",
+    "category": "Funny"
+  },
+  {
+    "id": 474,
+    "emote_id": "909055013",
+    "name": "new1_2",
+    "category": "Funny"
+  },
+  {
+    "id": 442,
+    "emote_id": "909053009",
+    "name": "new2",
+    "category": "Funny"
+  },
+  {
+    "id": 466,
+    "emote_id": "909055001",
+    "name": "new2_2",
+    "category": "Funny"
+  },
+  {
+    "id": 439,
+    "emote_id": "909053006",
+    "name": "new3",
+    "category": "Funny"
+  },
+  {
+    "id": 469,
+    "emote_id": "909055005",
+    "name": "new3_2",
+    "category": "Funny"
+  },
+  {
+    "id": 440,
+    "emote_id": "909053007",
+    "name": "new4",
+    "category": "Funny"
+  },
+  {
+    "id": 473,
+    "emote_id": "909055012",
+    "name": "new4_2",
+    "category": "Funny"
+  },
+  {
+    "id": 437,
+    "emote_id": "909053004",
+    "name": "new5",
+    "category": "Funny"
+  },
+  {
+    "id": 467,
+    "emote_id": "909055002",
+    "name": "new5_2",
+    "category": "Funny"
+  },
+  {
+    "id": 438,
+    "emote_id": "909053005",
+    "name": "new6",
+    "category": "Funny"
+  },
+  {
+    "id": 470,
+    "emote_id": "909055006",
+    "name": "new6_2",
+    "category": "Funny"
+  },
+  {
+    "id": 435,
+    "emote_id": "909053001",
+    "name": "new7",
+    "category": "Funny"
+  },
+  {
+    "id": 471,
+    "emote_id": "909055007",
+    "name": "new7_2",
+    "category": "Funny"
+  },
+  {
+    "id": 436,
+    "emote_id": "909053003",
+    "name": "new8",
+    "category": "Funny"
+  },
+  {
+    "id": 468,
+    "emote_id": "909055003",
+    "name": "new8_2",
+    "category": "Funny"
+  },
+  {
+    "id": 465,
+    "emote_id": "909054020",
+    "name": "new9",
+    "category": "Funny"
+  },
+  {
+    "id": 359,
+    "emote_id": "909047018",
+    "name": "ninjarun",
+    "category": "Funny"
+  },
+  {
+    "id": 358,
+    "emote_id": "909047017",
+    "name": "ninjasign",
+    "category": "Funny"
+  },
+  {
+    "id": 234,
+    "emote_id": "909035014",
+    "name": "ninjastand",
+    "category": "Funny"
+  },
+  {
+    "id": 396,
+    "emote_id": "909050002",
+    "name": "ninjasummon",
+    "category": "Funny"
+  },
+  {
+    "id": 342,
+    "emote_id": "909046008",
+    "name": "nosweat",
+    "category": "Funny"
+  },
+  {
+    "id": 189,
+    "emote_id": "909000132",
+    "name": "number1",
+    "category": "Funny"
+  },
+  {
+    "id": 271,
+    "emote_id": "909039008",
+    "name": "ohyeah",
+    "category": "Funny"
+  },
+  {
+    "id": 365,
+    "emote_id": "909048005",
+    "name": "ondrums",
+    "category": "Funny"
+  },
+  {
+    "id": 380,
+    "emote_id": "909049003",
+    "name": "owl",
+    "category": "Funny"
+  },
+  {
+    "id": 433,
+    "emote_id": "909052015",
+    "name": "p1",
+    "category": "Funny"
+  },
+  {
+    "id": 434,
+    "emote_id": "909052016",
+    "name": "p2",
+    "category": "Funny"
+  },
+  {
+    "id": 448,
+    "emote_id": "909053015",
+    "name": "p3",
+    "category": "Funny"
+  },
+  {
+    "id": 447,
+    "emote_id": "909053014",
+    "name": "p4",
+    "category": "Funny"
+  },
+  {
+    "id": 445,
+    "emote_id": "909053012",
+    "name": "p5",
+    "category": "Funny"
+  },
+  {
+    "id": 446,
+    "emote_id": "909053013",
+    "name": "p6",
+    "category": "Funny"
+  },
+  {
+    "id": 443,
+    "emote_id": "909053010",
+    "name": "p7",
+    "category": "Funny"
+  },
+  {
+    "id": 444,
+    "emote_id": "909053011",
+    "name": "p8",
+    "category": "Funny"
+  },
+  {
+    "id": 374,
+    "emote_id": "909048015",
+    "name": "paint",
+    "category": "Funny"
+  },
+  {
+    "id": 318,
+    "emote_id": "909044005",
+    "name": "paradox",
+    "category": "Funny"
+  },
+  {
+    "id": 324,
+    "emote_id": "909044011",
+    "name": "paradoxwings",
+    "category": "Funny"
+  },
+  {
+    "id": 431,
+    "emote_id": "909052013",
+    "name": "parafal",
+    "category": "Funny"
+  },
+  {
+    "id": 176,
+    "emote_id": "909000105",
+    "name": "partygame1",
+    "category": "Funny"
+  },
+  {
+    "id": 178,
+    "emote_id": "909000107",
+    "name": "partygame2",
+    "category": "Funny"
+  },
+  {
+    "id": 173,
+    "emote_id": "909000102",
+    "name": "partygame3",
+    "category": "Funny"
+  },
+  {
+    "id": 174,
+    "emote_id": "909000103",
+    "name": "partygame4",
+    "category": "Funny"
+  },
+  {
+    "id": 171,
+    "emote_id": "909000100",
+    "name": "partygame5",
+    "category": "Funny"
+  },
+  {
+    "id": 172,
+    "emote_id": "909000101",
+    "name": "partygame6",
+    "category": "Funny"
+  },
+  {
+    "id": 175,
+    "emote_id": "909000104",
+    "name": "partygame7",
+    "category": "Funny"
+  },
+  {
+    "id": 177,
+    "emote_id": "909000106",
+    "name": "partygame8",
+    "category": "Funny"
+  },
+  {
+    "id": 389,
+    "emote_id": "909049015",
+    "name": "pedalmetal",
+    "category": "Funny"
+  },
+  {
+    "id": 36,
+    "emote_id": "909051013",
+    "name": "petals",
+    "category": "Funny"
+  },
+  {
+    "id": 242,
+    "emote_id": "909036009",
+    "name": "phantomtamer",
+    "category": "Funny"
+  },
+  {
+    "id": 367,
+    "emote_id": "909048007",
+    "name": "pillowfight",
+    "category": "Funny"
+  },
+  {
+    "id": 92,
+    "emote_id": "909000034",
+    "name": "pirateflag",
+    "category": "Funny"
+  },
+  {
+    "id": 169,
+    "emote_id": "909000097",
+    "name": "poof",
+    "category": "Funny"
+  },
+  {
+    "id": 201,
+    "emote_id": "909000145",
+    "name": "possessedwarrior",
+    "category": "Funny"
+  },
+  {
+    "id": 122,
+    "emote_id": "909000038",
+    "name": "powerofmoney",
+    "category": "Funny"
+  },
+  {
+    "id": 432,
+    "emote_id": "909052014",
+    "name": "prime",
+    "category": "Funny"
+  },
+  {
+    "id": 102,
+    "emote_id": "909000003",
+    "name": "provoke",
+    "category": "Funny"
+  },
+  {
+    "id": 35,
+    "emote_id": "909051014",
+    "name": "puffyride",
+    "category": "Funny"
+  },
+  {
+    "id": 24,
+    "emote_id": "909000012",
+    "name": "pushup",
+    "category": "Funny"
+  },
+  {
+    "id": 383,
+    "emote_id": "909049007",
+    "name": "rainingcoins",
+    "category": "Funny"
+  },
+  {
+    "id": 408,
+    "emote_id": "909050019",
+    "name": "rainorshine",
+    "category": "Funny"
+  },
+  {
+    "id": 202,
+    "emote_id": "909000150",
+    "name": "raiseyourthumb",
+    "category": "Funny"
+  },
+  {
+    "id": 320,
+    "emote_id": "909044007",
+    "name": "raiseyourthumb2",
+    "category": "Funny"
+  },
+  {
+    "id": 184,
+    "emote_id": "909000126",
+    "name": "rapswag",
+    "category": "Funny"
+  },
+  {
+    "id": 357,
+    "emote_id": "909047015",
+    "name": "rasengan",
+    "category": "Funny"
+  },
+  {
+    "id": 97,
+    "emote_id": "909037001",
+    "name": "reindeerfloat",
+    "category": "Funny"
+  },
+  {
+    "id": 361,
+    "emote_id": "909048001",
+    "name": "rescue",
+    "category": "Funny"
+  },
+  {
+    "id": 198,
+    "emote_id": "909000142",
+    "name": "rhythmgirl",
+    "category": "Funny"
+  },
+  {
+    "id": 304,
+    "emote_id": "909043001",
+    "name": "ribbitrider",
+    "category": "Funny"
+  },
+  {
+    "id": 213,
+    "emote_id": "909034005",
+    "name": "ridicule",
+    "category": "Funny"
+  },
+  {
+    "id": 192,
+    "emote_id": "909000135",
+    "name": "rockpaperscissors",
+    "category": "Funny"
+  },
+  {
+    "id": 93,
+    "emote_id": "909000128",
+    "name": "rulersflag",
+    "category": "Funny"
+  },
+  {
+    "id": 311,
+    "emote_id": "909043008",
+    "name": "samba",
+    "category": "Funny"
+  },
+  {
+    "id": 353,
+    "emote_id": "909047008",
+    "name": "scissorsavvy",
+    "category": "Funny"
+  },
+  {
+    "id": 88,
+    "emote_id": "909039004",
+    "name": "scorpionfriend",
+    "category": "Funny"
+  },
+  {
+    "id": 264,
+    "emote_id": "909038009",
+    "name": "scorpionspin",
+    "category": "Funny"
+  },
+  {
+    "id": 118,
+    "emote_id": "909000032",
+    "name": "selfie",
+    "category": "Funny"
+  },
+  {
+    "id": 265,
+    "emote_id": "909038011",
+    "name": "shallwedance",
+    "category": "Funny"
+  },
+  {
+    "id": 193,
+    "emote_id": "909000136",
+    "name": "shatteredreality",
+    "category": "Funny"
+  },
+  {
+    "id": 237,
+    "emote_id": "909036002",
+    "name": "shibasurf",
+    "category": "Funny"
+  },
+  {
+    "id": 132,
+    "emote_id": "909000051",
+    "name": "shimmy",
+    "category": "Funny"
+  },
+  {
+    "id": 339,
+    "emote_id": "909046005",
+    "name": "shoeshining",
+    "category": "Funny"
+  },
+  {
+    "id": 409,
+    "emote_id": "909050020",
+    "name": "sholay",
+    "category": "Funny"
+  },
+  {
+    "id": 28,
+    "emote_id": "909000008",
+    "name": "shootdance",
+    "category": "Funny"
+  },
+  {
+    "id": 42,
+    "emote_id": "909051004",
+    "name": "shower",
+    "category": "Funny"
+  },
+  {
+    "id": 106,
+    "emote_id": "909000013",
+    "name": "shuffling",
+    "category": "Funny"
+  },
+  {
+    "id": 183,
+    "emote_id": "909000125",
+    "name": "sickmoves",
+    "category": "Funny"
+  },
+  {
+    "id": 381,
+    "emote_id": "909049005",
+    "name": "sidewiggle",
+    "category": "Funny"
+  },
+  {
+    "id": 243,
+    "emote_id": "909036010",
+    "name": "signal",
+    "category": "Funny"
+  },
+  {
+    "id": 226,
+    "emote_id": "909035004",
+    "name": "singersb010203",
+    "category": "Funny"
+  },
+  {
+    "id": 225,
+    "emote_id": "909035003",
+    "name": "singersb0203",
+    "category": "Funny"
+  },
+  {
+    "id": 224,
+    "emote_id": "909035002",
+    "name": "singersb03",
+    "category": "Funny"
+  },
+  {
+    "id": 96,
+    "emote_id": "909033005",
+    "name": "sitdown",
+    "category": "Funny"
+  },
+  {
+    "id": 241,
+    "emote_id": "909036008",
+    "name": "skateboardswag",
+    "category": "Funny"
+  },
+  {
+    "id": 84,
+    "emote_id": "909049004",
+    "name": "slapandtwist",
+    "category": "Funny"
+  },
+  {
+    "id": 352,
+    "emote_id": "909047005",
+    "name": "slipperythrone",
+    "category": "Funny"
+  },
+  {
+    "id": 373,
+    "emote_id": "909048014",
+    "name": "slurp",
+    "category": "Funny"
+  },
+  {
+    "id": 276,
+    "emote_id": "909040002",
+    "name": "smashthefeather",
+    "category": "Funny"
+  },
+  {
+    "id": 188,
+    "emote_id": "909000131",
+    "name": "smoothsway",
+    "category": "Funny"
+  },
+  {
+    "id": 349,
+    "emote_id": "909046017",
+    "name": "soaringup",
+    "category": "Funny"
+  },
+  {
+    "id": 277,
+    "emote_id": "909040003",
+    "name": "sonoroussteps",
+    "category": "Funny"
+  },
+  {
+    "id": 347,
+    "emote_id": "909046015",
+    "name": "spatialawareness",
+    "category": "Funny"
+  },
+  {
+    "id": 390,
+    "emote_id": "909049016",
+    "name": "spearspin",
+    "category": "Funny"
+  },
+  {
+    "id": 56,
+    "emote_id": "909043009",
+    "name": "speedsummon",
+    "category": "Funny"
+  },
+  {
+    "id": 281,
+    "emote_id": "909040009",
+    "name": "spidersense",
+    "category": "Funny"
+  },
+  {
+    "id": 266,
+    "emote_id": "909038013",
+    "name": "spinmaster",
+    "category": "Funny"
+  },
+  {
+    "id": 326,
+    "emote_id": "909045002",
+    "name": "springrocker",
+    "category": "Funny"
+  },
+  {
+    "id": 393,
+    "emote_id": "909049019",
+    "name": "squatchallenge",
+    "category": "Funny"
+  },
+  {
+    "id": 323,
+    "emote_id": "909044010",
+    "name": "starcatcher",
+    "category": "Funny"
+  },
+  {
+    "id": 250,
+    "emote_id": "909037005",
+    "name": "starryhands",
+    "category": "Funny"
+  },
+  {
+    "id": 331,
+    "emote_id": "909045007",
+    "name": "stepstep",
+    "category": "Funny"
+  },
+  {
+    "id": 295,
+    "emote_id": "909042004",
+    "name": "stompingfoot",
+    "category": "Funny"
+  },
+  {
+    "id": 356,
+    "emote_id": "909047013",
+    "name": "stormyascent",
+    "category": "Funny"
+  },
+  {
+    "id": 427,
+    "emote_id": "909052009",
+    "name": "summoning",
+    "category": "Funny"
+  },
+  {
+    "id": 240,
+    "emote_id": "909036006",
+    "name": "sunbathing",
+    "category": "Funny"
+  },
+  {
+    "id": 332,
+    "emote_id": "909045008",
+    "name": "superyay",
+    "category": "Funny"
+  },
+  {
+    "id": 245,
+    "emote_id": "909036012",
+    "name": "swaggydance",
+    "category": "Funny"
+  },
+  {
+    "id": 274,
+    "emote_id": "909039014",
+    "name": "swaggyvsteps",
+    "category": "Funny"
+  },
+  {
+    "id": 128,
+    "emote_id": "909000044",
+    "name": "swan",
+    "category": "Funny"
+  },
+  {
+    "id": 371,
+    "emote_id": "909048012",
+    "name": "swiftsteps",
+    "category": "Funny"
+  },
+  {
+    "id": 196,
+    "emote_id": "909000139",
+    "name": "switchingsteps",
+    "category": "Funny"
+  },
+  {
+    "id": 32,
+    "emote_id": "909044015",
+    "name": "sword",
+    "category": "Funny"
+  },
+  {
+    "id": 405,
+    "emote_id": "909050016",
+    "name": "tacticalmoveout",
+    "category": "Funny"
+  },
+  {
+    "id": 65,
+    "emote_id": "909048008",
+    "name": "targetpractice",
+    "category": "Funny"
+  },
+  {
+    "id": 214,
+    "emote_id": "909034006",
+    "name": "teasewaggor",
+    "category": "Funny"
+  },
+  {
+    "id": 129,
+    "emote_id": "909000046",
+    "name": "teatime",
+    "category": "Funny"
+  },
+  {
+    "id": 259,
+    "emote_id": "909038003",
+    "name": "technoblast",
+    "category": "Funny"
+  },
+  {
+    "id": 354,
+    "emote_id": "909047009",
+    "name": "thinker",
+    "category": "Funny"
+  },
+  {
+    "id": 296,
+    "emote_id": "909042005",
+    "name": "thisway",
+    "category": "Funny"
+  },
+  {
+    "id": 400,
+    "emote_id": "909050008",
+    "name": "thor",
+    "category": "Funny"
+  },
+  {
+    "id": 67,
+    "emote_id": "909047016",
+    "name": "thousandyears",
+    "category": "Funny"
+  },
+  {
+    "id": 108,
+    "emote_id": "909000018",
+    "name": "threaten",
+    "category": "Funny"
+  },
+  {
+    "id": 91,
+    "emote_id": "909000014",
+    "name": "throne",
+    "category": "Funny"
+  },
+  {
+    "id": 64,
+    "emote_id": "909048017",
+    "name": "throwin",
+    "category": "Funny"
+  },
+  {
+    "id": 300,
+    "emote_id": "909042013",
+    "name": "toiletman",
+    "category": "Funny"
+  },
+  {
+    "id": 82,
+    "emote_id": "909050015",
+    "name": "tomato",
+    "category": "Funny"
+  },
+  {
+    "id": 348,
+    "emote_id": "909046016",
+    "name": "trapping",
+    "category": "Funny"
+  },
+  {
+    "id": 249,
+    "emote_id": "909037004",
+    "name": "trophygrab",
+    "category": "Funny"
+  },
+  {
+    "id": 217,
+    "emote_id": "909034009",
+    "name": "twerk",
+    "category": "Funny"
+  },
+  {
+    "id": 315,
+    "emote_id": "909044002",
+    "name": "unicyclist",
+    "category": "Funny"
+  },
+  {
+    "id": 260,
+    "emote_id": "909038004",
+    "name": "valentine",
+    "category": "Funny"
+  },
+  {
+    "id": 227,
+    "emote_id": "909035005",
+    "name": "victoriouseagle",
+    "category": "Funny"
+  },
+  {
+    "id": 334,
+    "emote_id": "909045012",
+    "name": "waggorsseesaw",
+    "category": "Funny"
+  },
+  {
+    "id": 167,
+    "emote_id": "909000095",
+    "name": "waggorwave",
+    "category": "Funny"
+  },
+  {
+    "id": 238,
+    "emote_id": "909036003",
+    "name": "waiterwalk",
+    "category": "Funny"
+  },
+  {
+    "id": 159,
+    "emote_id": "909000084",
+    "name": "walker",
+    "category": "Funny"
+  },
+  {
+    "id": 208,
+    "emote_id": "909033010",
+    "name": "weightofvictory",
+    "category": "Funny"
+  },
+  {
+    "id": 230,
+    "emote_id": "909035009",
+    "name": "weighttraining",
+    "category": "Funny"
+  },
+  {
+    "id": 289,
+    "emote_id": "909041010",
+    "name": "whacacotton",
+    "category": "Funny"
+  },
+  {
+    "id": 312,
+    "emote_id": "909043010",
+    "name": "whatamatch",
+    "category": "Funny"
+  },
+  {
+    "id": 313,
+    "emote_id": "909043013",
+    "name": "whatapair",
+    "category": "Funny"
+  },
+  {
+    "id": 55,
+    "emote_id": "909041002",
+    "name": "whirlpool",
+    "category": "Funny"
+  },
+  {
+    "id": 45,
+    "emote_id": "909000048",
+    "name": "whyohwhy",
+    "category": "Funny"
+  },
+  {
+    "id": 307,
+    "emote_id": "909043004",
+    "name": "whysochaos",
+    "category": "Funny"
+  },
+  {
+    "id": 112,
+    "emote_id": "909000023",
+    "name": "wigglewalk",
+    "category": "Funny"
+  },
+  {
+    "id": 161,
+    "emote_id": "909000088",
+    "name": "winandchill",
+    "category": "Funny"
+  },
+  {
+    "id": 207,
+    "emote_id": "909033009",
+    "name": "winnerthrow",
+    "category": "Funny"
+  },
+  {
+    "id": 394,
+    "emote_id": "909049020",
+    "name": "winninggoal",
+    "category": "Funny"
+  },
+  {
+    "id": 284,
+    "emote_id": "909040013",
+    "name": "wisdomswing",
+    "category": "Funny"
+  },
+  {
+    "id": 72,
+    "emote_id": "909047001",
+    "name": "wontbowdown",
+    "category": "Funny"
+  },
+  {
+    "id": 222,
+    "emote_id": "909034014",
+    "name": "yesido",
+    "category": "Funny"
+  },
+  {
+    "id": 330,
+    "emote_id": "909045006",
+    "name": "youknowimgood",
+    "category": "Funny"
+  },
+  {
+    "id": 251,
+    "emote_id": "909037006",
+    "name": "yum",
+    "category": "Funny"
+  },
+  {
+    "id": 57,
+    "emote_id": "909044012",
+    "name": "zombified",
+    "category": "Funny"
+  }
+]
